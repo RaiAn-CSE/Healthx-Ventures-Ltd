@@ -1,5 +1,5 @@
 $ npx create-next-app@latest
-√ What is your project named? ... .
+√ What is your project named? ... . <br/>
 √ Would you like to use TypeScript? ... No
 √ Would you like to use ESLint? ... Yes
 √ Would you like to use Tailwind CSS? ... Yes
