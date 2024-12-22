@@ -37,7 +37,7 @@ const Header = () => {
                     </p>
 
                     <div className="mt-5 flex justify-center md:justify-start gap-4">
-                        <button className="btn btn-primary">DISCOVER MORE</button>
+                        <button className="inline-block px-6 py-[13px] rounded-full bg-gradient-to-b from-[#21b7fc] from-10% via-[#29b3f6] via-30% to-[#c2ebfe] to-90% text-white font-bold shadow-md hover:shadow-lg transition-shadow duration-200">DISCOVER MORE</button>
                         <Button
                             text="SEE ALL SERVICES"
                         />
