@@ -8,8 +8,8 @@ import Image from 'next/image';
 
 const Header = () => {
     return (
-        <header className="relative bg-gradient-to-r from-[#f5fcff] to-[#f7faff]">
-            <div className='flex flex-col md:flex-row items-center justify-between px-28 pt-14 pb-7'>
+        <header className="relative bg-gradient-to-r from-[#f5fcff] to-[#f7faff] z-10">
+            <div className='container mx-auto flex flex-col md:flex-row items-center justify-between px-28 pt-14 pb-7'>
                 <div className="text-center md:text-left space-y-5 mb-20">
                     <div className="text-secondary font-medium flex items-center space-x-4">
                         <Image

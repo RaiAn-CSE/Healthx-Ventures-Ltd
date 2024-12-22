@@ -7,7 +7,6 @@ import Image from "next/image";
 import logo from "../public/assets/logo.svg"
 import Button from "./shared/Button";
 
-
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -27,10 +26,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased grid justify-center font-sans`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased font-sans`}
       >
         {/* Navbar */}
-        <nav className="bg-white shadow-2xl px-28 py-4">
+        <nav className="bg-white shadow-2xl px-28 py-4 z-50">
           <div className="container mx-auto flex justify-between items-center h-16">
             {/* Logo */}
             <div className="flex items-center">
